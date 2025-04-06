@@ -10,7 +10,7 @@ mkdir -p temp
 
 
 # Move the index.html file into the Django templates folder
-cp temp/index.html /var/www/html/priya_dir/myproject/templates/
+cp temp/index.html /var/www/html/priya_dir/templates/
 
 
 # Clean up the temp folder
