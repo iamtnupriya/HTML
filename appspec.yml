@@ -3,12 +3,12 @@ os: linux
 
 files:
   - source: /
-  destination: /var/www/html/priya_dir
-  overwrite: true
-  fileExistsBehavior: OVERWRITE
+    destination: /var/www/html/priya_dir
+    overwrite: true
+    fileExistsBehavior: OVERWRITE
 
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
-    timeout: 300
-    runas: root
+      timeout: 300
+      runas: root
