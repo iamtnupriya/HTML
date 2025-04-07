@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /var/www/html/priya_dir
+    destination: /var/www/html
     overwrite: true
     fileExistsBehavior: OVERWRITE
 
