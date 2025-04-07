@@ -6,7 +6,7 @@ cd /var/www/html/priya_dir
 
 
 # Create a temp folder for code pipeline delivery (optional)
-mkdir -p temp
+#mkdir -p temp
 
 
 # Move the index.html file into the Django templates folder
@@ -14,7 +14,7 @@ cp temp/index.html /var/www/html/priya_dir/templates/
 
 
 # Clean up the temp folder
-rm -rf temp
+#rm -rf temp
 
 
 # Restart Apache to apply changes
