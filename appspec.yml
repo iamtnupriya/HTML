@@ -4,6 +4,8 @@ os: linux
 files:
   - source: /
   destination: /var/www/html/priya_dir
+  overwrite: true
+  fileExistsBehavior: OVERWRITE
 
 hooks:
   AfterInstall:
